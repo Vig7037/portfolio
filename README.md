@@ -10,12 +10,7 @@
 </div>
 <h3 align="center">
 </h3>
-Hey everyone😊,
 
-#### I used Python language, streamlit for web framework and streamlit cloud for the hosting.
-
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/master/topics/python/python.png"></code>
-<code><img height="20" src="https://streamlit.io/images/brand/streamlit-mark-color.png"></code>
 ---
 
 [Portfolio Link!](https://vighneshportfolio.streamlit.app/)
