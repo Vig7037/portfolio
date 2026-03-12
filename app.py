@@ -10,7 +10,6 @@ st.set_page_config(page_title="Vighnesh Singhal | Portfolio", layout="wide", pag
 image = Image.open(r"content/profile.png")
 nss = Image.open(r"content/nss.jpg")
 tbi = Image.open(r"content/tbi.png")
-cont = Image.open(r"content/cont.png")
 aci = Image.open(r"content/aci.jpg")
 research = Image.open(r"content/research.png")
 iit = Image.open(r"content/iit.png")
