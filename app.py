@@ -7,16 +7,16 @@ from PIL import Image
 st.set_page_config(page_title="Vighnesh Singhal | Portfolio", layout="wide", page_icon="👨‍💻")
 
 # Load images
-image = Image.open(r"content\profile.png")
-nss = Image.open(r"content\nss.jpg")
-tbi = Image.open(r"content\tbi.png")
-cont = Image.open(r"content\cont.png")
-aci = Image.open(r"content\aci.jpg")
-research = Image.open(r"content\research.png")
-iit = Image.open(r"content\iit.png")
+image = Image.open(r"content/profile.png")
+nss = Image.open(r"content/nss.jpg")
+tbi = Image.open(r"content/tbi.png")
+cont = Image.open(r"content/cont.png")
+aci = Image.open(r"content/aci.jpg")
+research = Image.open(r"content/research.png")
+iit = Image.open(r"content/iit.png")
 
 # Load GIF demo (base64 for inline HTML rendering)
-with open(r"content\Demo.gif", "rb") as _f:
+with open(r"content/Demo.gif", "rb") as _f:
     gif_b64 = base64.b64encode(_f.read()).decode()
 
 # Custom CSS
@@ -517,7 +517,7 @@ st.markdown('<div class="anchor-target" id="projects"></div>', unsafe_allow_html
 st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
 
 with st.spinner("Building project timeline..."):
-    with open(r'content\timeline.json', "r") as f:
+    with open(r'content/timeline.json', "r") as f:
         data = f.read()
         timeline(data, height=520)
 
